@@ -23,9 +23,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %endif
 
 %description
-Charmap is a powerful character map. It works on Unix-like operating systems with the GNUstep environment installed.
+Charmap is a powerful character map. It works on Unix-like operating
+systems with the GNUstep environment installed.
 
-Charmap's power lies its support not just of simply helping to pick characters, but also its display of substantial Unicode data about each character, such as the Unicode name, alias, canonical decomposition, Unicode category, and various representations. With all this, developers and linguaphiles alike will find Charmap a useful tool.
+Charmap's power lies its support not just of simply helping to pick
+characters, but also its display of substantial Unicode data about
+each character, such as the Unicode name, alias, canonical
+decomposition, Unicode category, and various representations. With
+all this, developers and linguaphiles alike will find Charmap 
+a useful tool.
 
 %prep
 %setup -q -n charmap-%{version}
