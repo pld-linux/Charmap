@@ -1,0 +1,19 @@
+diff -ur o-charmap-0.2/main.m charmap-0.2/main.m
+--- o-charmap-0.2/main.m	2004-05-28 05:04:30.000000000 -0600
++++ charmap-0.2/main.m	2004-11-13 16:19:14.176617906 -0700
+@@ -22,10 +22,14 @@
+ #include "Controller.h"
+ #endif
+ 
+-int main()
++int main(int argc, char **argv, char **env)
+ {
+   NSAutoreleasePool *pool;
+ 
++#ifdef GS_PASS_ARGUMENTS
++  [NSProcessInfo initializeWithArguments: argv count: argc environment: env];
++#endif
++
+   pool = [[NSAutoreleasePool alloc] init];
+ 
+   [NSApplication sharedApplication];
