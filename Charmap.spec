@@ -1,5 +1,5 @@
 Summary:	Character map for GNUstep
-Summary(pl):	Mapa znaków dla GNUstepa
+Summary(pl.UTF-8):   Mapa znakÃ³w dla GNUstepa
 Name:		Charmap
 Version:	0.2
 Release:	1
@@ -34,16 +34,16 @@ decomposition, Unicode category, and various representations. With
 all this, developers and linguaphiles alike will find Charmap 
 a useful tool.
 
-%description -l pl
-Charmap to mapa znaków o du¿ych mo¿liwo¶ciach. Dzia³a pod uniksowymi
-systemami operacyjnymi z zainstalowanym ¶rodowiskiem GNUstep.
+%description -l pl.UTF-8
+Charmap to mapa znakÃ³w o duÅ¼ych moÅ¼liwoÅ›ciach. DziaÅ‚a pod uniksowymi
+systemami operacyjnymi z zainstalowanym Å›rodowiskiem GNUstep.
 
-Potêga Charmapa polega na obs³udze nie tylko prostej pomocy przy
-wybieraniu znaków, ale tak¿e wy¶wietlaniu istotnych danych unikodowych
-dotycz±cych ka¿dego znaku, takich jak nazwa unikodowa, alias, rozk³ad
-kanoniczny, kategoria unikodowa i ró¿ne reprezentacje. Dziêki temu
-wszystkiemu programi¶ci jak i jêzykofile uznaj± Charmapa za u¿yteczne
-narzêdzie.
+PotÄ™ga Charmapa polega na obsÅ‚udze nie tylko prostej pomocy przy
+wybieraniu znakÃ³w, ale takÅ¼e wyÅ›wietlaniu istotnych danych unikodowych
+dotyczÄ…cych kaÅ¼dego znaku, takich jak nazwa unikodowa, alias, rozkÅ‚ad
+kanoniczny, kategoria unikodowa i rÃ³Å¼ne reprezentacje. DziÄ™ki temu
+wszystkiemu programiÅ›ci jak i jÄ™zykofile uznajÄ… Charmapa za uÅ¼yteczne
+narzÄ™dzie.
 
 %prep
 %setup -q -n charmap-%{version}
