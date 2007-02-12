@@ -1,5 +1,5 @@
 Summary:	Character map for GNUstep
-Summary(pl.UTF-8):   Mapa znaków dla GNUstepa
+Summary(pl.UTF-8):	Mapa znaków dla GNUstepa
 Name:		Charmap
 Version:	0.2
 Release:	1
