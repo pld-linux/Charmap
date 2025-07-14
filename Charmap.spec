@@ -47,7 +47,7 @@ narzędzie.
 
 %prep
 %setup -q -n charmap-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 . %{_prefix}/System/Library/Makefiles/GNUstep.sh
